@@ -1,0 +1,29 @@
+{
+  "name": "quick-koa",
+  "version": "0.0.2",
+  "description": "koa integrated tool",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "rm -rf ./koa-demo && node index.js"
+  },
+  "keywords": ["koa"],
+  "author": {
+    "name" : "afacode",
+    "email" : "afacode@outlook.com",
+    "url" : "https://github.com/afacode"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.0",
+    "prettier": "^2.5.1"
+  }
+}
