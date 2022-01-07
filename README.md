@@ -1,15 +1,15 @@
-## quick-koa
+## easy-koa
 
 use koa quick demo koa-template
 
 > install
 ```js
-yarn add quick-koa -g
+yarn add easy-koa -g
 or 
-npm install quick-koa -g
+npm install easy-koa -g
 ```
 > usage
 
 ```js
-quick-koa
+easy-koa
 ```
