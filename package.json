@@ -1,6 +1,6 @@
 {
-  "name": "easy-koa",
-  "version": "0.0.2",
+  "name": "@afacode/easy-koa",
+  "version": "1.0.0",
   "description": "koa integrated tool",
   "main": "index.js",
   "bin": "./bin/index.js",
@@ -9,6 +9,7 @@
     "bin",
     "package.json"
   ],
+  "private": false,
   "scripts": {
     "test": "rm -rf ./koa-demo && node index.js"
   },
@@ -18,6 +19,7 @@
     "email" : "afacode@outlook.com",
     "url" : "https://github.com/afacode"
   },
+  "homepage": "https://github.com/afacode/easy-koa",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
