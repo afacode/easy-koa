@@ -1,15 +1,21 @@
-const Koa = require('koa')
+import Koa from "koa";
+import path from "path"
+const __dirname = path.resolve();
 
 <% if (middleware.router) { %>
-  const Router = require('koa-router');
+  import Router from "koa-router";
 <% } %>
 
 <% if (middleware.static) { %>
-  const serve = require('koa-static')
+  import serve from "koa-static";
 <% } %>
 
 <% if (middleware.views) { %>
-  const views = require('koa-views');
+  import views from "koa-views";
+<% } %>
+
+<% if (middleware.body) { %>
+  import body from "koa-body";
 <% } %>
 
 const app = new Koa()

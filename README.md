@@ -11,7 +11,7 @@ npm install @afacode/easy-koa -g
 > usage
 
 ```js
-@afacode/easy-koa
+easy-koa
 ```
 
 - [github](https://github.com/afacode/easy-koa)

@@ -25,14 +25,14 @@ fs.writeFileSync(`${getRootPath()}/package.json`, createPackageTemplate(config))
 
 // 安装依赖 child_process 第三方库 execa
 console.log(chalk.blue(`安装依赖`))
-execa('yarn', {
+await execa('npm install', {
   cwd: getRootPath(),
   stdio: [2, 2, 2]
 })
-console.log(chalk.blue(`success`))
+console.log(chalk.blue(`成功！！！`))
 console.log(chalk.blue(`
-  cd ${config.packageName}
-  yarn dev or npm run dev or pnpm dev
+cd ${config.packageName}
+yarn dev or npm run dev or pnpm dev
 `))
 
 function getRootPath() {
