@@ -1,18 +1,23 @@
 ## @afacode/easy-koa
 
 use koa quick demo koa-template
-
-> install
+### feature
+support under middleware
+- koa-views
+- koa-router
+- koa-static
+- koa-body
+### install
 ```js
-yarn add @afacode/easy-koa -g
-or 
 npm install @afacode/easy-koa -g
 ```
-> usage
-
+### usage
 ```js
 easy-koa
 ```
-
+### 🏠 homepage
 - [github](https://github.com/afacode/easy-koa)
 - [issue](https://github.com/afacode/easy-koa/issues)
+
+### show your support
+Give a ⭐️ if this project helped you!
